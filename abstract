@@ -1,0 +1,11 @@
+Two-dimensional (2D) image processing systems are concerned with the processing of the images represented as 2D arrays and are widely used in
+medicine, transportation and many other autonomous systems. The dynamics of these systems are generally modeled using 2D difference equations, which are
+mathematically analyzed using the 2D z-transform. It mainly involves a transformation of the difference equations based models of these systems to their
+corresponding algebraic equations, mapping the 2D arrays (2D discrete-time signals) over the (z1,z2)-domain. Finally, these (z1,z2)-domain representations
+are used to analyze various properties of these systems, such as transfer function and stability. Conventional techniques, such as paper-and-pencil proof methods
+and computer based simulation techniques for analyzing these filters cannot assert the accuracy of the analysis due to their inherent limitations like human
+error proneness, limited computational resources and approximations of the mathematical expressions and results. In this paper, as a complimentary
+technique, we propose to use formal methods, higher-order-logic theorem proving, for formally analyzing the image processing filters. These methods can overcome
+the limitations of the conventional techniques and thus ascertain the accuracy of the analysis. In particular, we formalize the 2D z-transform based on the
+multivariate theories of calculus using the HOL Light theorem prover. Moreover, we formally analyze a generic (L1, L2)-order 2D Infinite Impulse Response (IIR)
+image processing filter. We illustrate the practical effectiveness of our proposed approach by formally analyzing a second-order image processing filter.
